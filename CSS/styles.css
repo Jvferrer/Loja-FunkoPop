@@ -1,0 +1,200 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./home.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.background {
+  background-image: url("../imagem/robin\ conta.jpg");
+  background-size: 100%;
+  width: auto;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.cabeçalho ul {
+  display: flex;
+}
+.cabeçalho ul li {
+  margin: 20px;
+  list-style: none;
+}
+
+.cabeçalho ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+}
+.fale-conosco,
+.header-catalogo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 75vh;
+  margin-right: 600px;
+  margin-bottom: 1000px;
+}
+.fale-conosco img {
+  width: 45%;
+}
+.cabeçalho ul li img {
+  width: 50%;
+}
+.background-home {
+  background-image: url("../imagem/spidermanheader.jpg");
+  background-size: 120%;
+  width: auto;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.titulo-home {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 70vh;
+  margin-right: 800px;
+  margin-bottom: 1000px;
+}
+.titulo-home img {
+  width: 60%;
+}
+.background-thor {
+  background-image: url("../imagem/thor_header.jpg");
+  background-size: 120%;
+  width: auto;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+h1 {
+  color: white;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+p {
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+  width: 40%;
+}
+.background-thor p {
+  float: right;
+}
+.catalogo h1 {
+  color: black;
+}
+.catalogo p {
+  color: black;
+  width: 90%;
+}
+.catalogo div img {
+  width: 50%;
+}
+.centralizar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 15px 25px;
+  background-color: rgb(207, 24, 24);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 30px;
+}
+button:hover {
+  background-color: rgb(122, 18, 18);
+  cursor: pointer;
+}
+.background-catalogo {
+  background-image: url("../imagem/captainmarvelheader.jpg");
+  background-size: 100%;
+  width: auto;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.header-catalogo img {
+  width: 60%;
+}
+.produto img {
+  width: 20%;
+}
+.produto p {
+  font-size: 18px;
+  color: black;
+}
+
+.produto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.lista {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.preco-botao {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.produto h4 {
+  padding: 10px 30px;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contato p {
+  color: gray;
+  width: 50%;
+  font-size: 20px;
+}
+
+.lista-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+input {
+  padding: 10px 30px;
+  border-radius: 8px;
+}
+textarea {
+  border-radius: 8px;
+}
+
+
+.lista-contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contato button {
+  padding-right: 210px;
+  padding-left: 210px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
